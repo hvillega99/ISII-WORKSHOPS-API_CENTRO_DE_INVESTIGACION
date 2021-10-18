@@ -14,10 +14,10 @@ public class CarInsurance {
 	public int getAge_customer() {
 		return this.age_customer;
 	}
-	public string getSex_customer() {
+	public String getSex_customer() {
 		return this.sex_customer;
 	}
-	public string getMarital_status() {
+	public String getMarital_status() {
 		return this.marital_status;
 	}
 	public void setAge_customer(int age_customer) {
@@ -41,16 +41,16 @@ public class CarInsurance {
 		
 		total = total + BASE_PREMIUM;
 		
-		if(this.sex_customer = "M" && this.marital_status = "not married" && this.age_customer > 25) {
+		if(this.sex_customer == "M" && this.marital_status == "not married" && this.age_customer > 25) {
 			total = total + MALE_SINGLE;
 		}
-		else if(this.sex_customer = "F" || this.marital_status = "married") {
+		else if(this.sex_customer == "F" || this.marital_status == "married") {
 			total = total - FEMALE_MARRIED;
 		}
 		else if(this.age_customer >= 45 && this.age_customer < 65) {
 			total = total - OLDER_YOUNGER;
 		}
-		
+		return total;
 	}
 	
 	
