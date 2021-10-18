@@ -30,4 +30,28 @@ public class CarInsurance {
 		this.marital_status = marital_status;
 	}
 	
+	
+	public int totalCalc() {
+		
+		int total = 0;
+		
+		if(this.age_customer > 80 || this.age_customer < 21) {
+			return -1;
+		}
+		
+		total = total + BASE_PREMIUM;
+		
+		if(this.sex_customer = "M" && this.marital_status = "not married" && this.age_customer > 25) {
+			total = total + MALE_SINGLE;
+		}
+		else if(this.sex_customer = "F" || this.marital_status = "married") {
+			total = total - FEMALE_MARRIED;
+		}
+		else if(this.age_customer >= 45 && this.age_customer < 65) {
+			total = total - OLDER_YOUNGER;
+		}
+		
+	}
+	
+	
 }
