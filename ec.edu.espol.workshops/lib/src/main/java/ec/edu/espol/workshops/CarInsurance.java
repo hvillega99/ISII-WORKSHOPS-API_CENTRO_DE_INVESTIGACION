@@ -12,6 +12,23 @@ public class CarInsurance {
 	private final int OLDER_YOUNGER = 100;
 
 	
-	
+	public void setAge_customer(int age_customer) {
+		this.age_customer = age_customer;
+	}
+	public void setSex_customer(String sex_customer) {
+		this.sex_customer = sex_customer;
+	}
+	public void setMarital_status(String marital_status) {
+		this.marital_status = marital_status;
+	}
+	public int getAge_customer() {
+		return this.age_customer;
+	}
+	public string getSex_customer() {
+		return this.sex_customer;
+	}
+	public string getMarital_status() {
+		return this.marital_status;
+	}
 	
 }
