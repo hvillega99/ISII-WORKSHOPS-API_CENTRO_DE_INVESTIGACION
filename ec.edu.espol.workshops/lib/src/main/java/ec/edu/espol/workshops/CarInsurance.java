@@ -6,10 +6,10 @@ public class CarInsurance {
 	private String sex_customer;
 	private String marital_status;
 	
-	private final int BASE_PREMIUM = 500;
-	private final int MALE_SINGLE = 1500;
-	private final int FEMALE_MARRIED = 200;
-	private final int OLDER_YOUNGER = 100;
+	private final static int BASE_PREMIUM = 500;
+	private final static int MALE_SINGLE = 1500;
+	private final static int FEMALE_MARRIED = 200;
+	private final static int OLDER_YOUNGER = 100;
 
 	public int getAge_customer() {
 		return this.age_customer;
@@ -41,10 +41,10 @@ public class CarInsurance {
 		
 		total = total + BASE_PREMIUM;
 		
-		if(this.sex_customer == "M" && this.marital_status == "not married" && this.age_customer > 25) {
+		if(this.sex_customer.equals("M") && this.marital_status.equals("not married") && this.age_customer > 25) {
 			total = total + MALE_SINGLE;
 		}
-		else if(this.sex_customer == "F" || this.marital_status == "married") {
+		else if(this.sex_customer.equals("F") || this.marital_status.equals("married") ) {
 			total = total - FEMALE_MARRIED;
 		}
 		else if(this.age_customer >= 45 && this.age_customer < 65) {
