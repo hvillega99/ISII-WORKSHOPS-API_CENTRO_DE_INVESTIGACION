@@ -6,18 +6,17 @@ public class CarInsurance {
 	private String sex_customer;
 	private String marital_status;
 	
-	private final int BASE_PREMIUM = 500;
-	private final int MALE_SINGLE = 1500;
-	private final int FEMALE_MARRIED = 200;
-	private final int OLDER_YOUNGER = 100;
+	private static int BASE_PREMIUM = 500;
+	private static int MALE_SINGLE = 1500;
+	private static int OLDER_YOUNGER = 100;
 
 	public int getAge_customer() {
 		return this.age_customer;
 	}
-	public string getSex_customer() {
+	public String getSex_customer() {
 		return this.sex_customer;
 	}
-	public string getMarital_status() {
+	public String getMarital_status() {
 		return this.marital_status;
 	}
 	public void setAge_customer(int age_customer) {
