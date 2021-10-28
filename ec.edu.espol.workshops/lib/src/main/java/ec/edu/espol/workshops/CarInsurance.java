@@ -10,32 +10,32 @@ package ec.edu.espol.workshops;
 public class CarInsurance {
 
 	
-	private int age_customer;
-	private String sex_customer;
-	private String marital_status;
+	private int agecustomer;
+	private String sexcustomer;
+	private String maritalstatus;
 	
-	private static int BASE_PREMIUM = 500;
-	private static int MALE_SINGLE = 1500;
-	private static int OLDER_YOUNGER = 100;
-	private static int FEMALE_MARRIED = 1500;
+	private final static int basepremium = 500;
+    private final static int malesingle = 1500;
+    private final static int femalemarried = 200;
+    private final static int olderyounger = 100;
 
 	public int getAge_customer() {
-		return this.age_customer;
+		return this.agecustomer;
 	}
 	public String getSex_customer() {
-		return this.sex_customer;
+		return this.sexcustomer;
 	}
 	public String getMarital_status() {
-		return this.marital_status;
+		return this.maritalstatus;
 	}
 	public void setAge_customer(int age_customer) {
-		this.age_customer = age_customer;
+		this.agecustomer = age_customer;
 	}
 	public void setSex_customer(String sex_customer) {
-		this.sex_customer = sex_customer;
+		this.sexcustomer = sex_customer;
 	}
 	public void setMarital_status(String marital_status) {
-		this.marital_status = marital_status;
+		this.maritalstatus = marital_status;
 	}
 	
     
@@ -45,22 +45,22 @@ public class CarInsurance {
     * 
     * @return int Returns the value of the insurance or -1 in error
     */
-    public int totalCalc() {
+	public int totalCalc() {
 
         int total = 0;
 
-        if (this.age_customer > 80 || this.age_customer < 21) {
+        if (this.agecustomer > 80 || this.agecustomer < 21) {
             return -1;
         }
 
-        total = total + BASE_PREMIUM;
+        total = total + basepremium;
 
-        if (this.sex_customer.equals("M") && this.marital_status.equals("not married")  && this.age_customer > 25) {
-            total = total + MALE_SINGLE;
-        } else if (this.sex_customer.equals("F")  || this.marital_status.equals("married") ) {
-            total = total - FEMALE_MARRIED;
-        } else if (this.age_customer >= 45 && this.age_customer < 65) {
-            total = total - OLDER_YOUNGER;
+        if (this.sexcustomer.equals("M") && this.maritalstatus.equals("not married")  && this.agecustomer > 25) {
+            total = total + malesingle;
+        } else if (this.sexcustomer.equals("F")  || this.maritalstatus.equals("married") ) {
+            total = total - femalemarried;
+        } else if (this.agecustomer >= 45 && this.agecustomer < 65) {
+            total = total - olderyounger;
         }
         return total;
     }
