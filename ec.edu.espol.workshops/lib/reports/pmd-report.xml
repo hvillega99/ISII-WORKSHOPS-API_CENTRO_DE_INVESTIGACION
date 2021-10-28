@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.39.0" timestamp="2021-10-21T17:42:45.497">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.39.0" timestamp="2021-10-22T17:54:13.707">
 <file name="src/main/java/ec/edu/espol/workshops/CarInsurance.java">
-<violation beginline="3" endline="33" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="3" endline="32" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Class comments are required
 </violation>
-<violation beginline="3" endline="33" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+<violation beginline="3" endline="32" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Class comments are required
 </violation>
-<violation beginline="3" endline="33" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#dataclass" priority="3">
+<violation beginline="3" endline="32" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#dataclass" priority="3">
 DataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
 </violation>
-<violation beginline="3" endline="33" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#dataclass" priority="3">
+<violation beginline="3" endline="32" begincolumn="0" endcolumn="0" rule="DataClass" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#dataclass" priority="3">
 DataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
 </violation>
 <violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
@@ -37,12 +37,6 @@ CommentRequired: Field comments are required
 <violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Field comments are required
 </violation>
-<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
-<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
 <violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
 UnusedPrivateField: Avoid unused private fields such as 'BASE_PREMIUM'.
 </violation>
@@ -54,12 +48,6 @@ CommentRequired: Field comments are required
 </violation>
 <violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Field comments are required
-</violation>
-<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
-<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
 </violation>
 <violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
 UnusedPrivateField: Avoid unused private fields such as 'MALE_SINGLE'.
@@ -73,34 +61,10 @@ CommentRequired: Field comments are required
 <violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
 CommentRequired: Field comments are required
 </violation>
-<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
-<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
 <violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
-UnusedPrivateField: Avoid unused private fields such as 'FEMALE_MARRIED'.
-</violation>
-<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
-UnusedPrivateField: Avoid unused private fields such as 'FEMALE_MARRIED'.
-</violation>
-<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
-CommentRequired: Field comments are required
-</violation>
-<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
-<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#finalfieldcouldbestatic" priority="3">
-FinalFieldCouldBeStatic: This final field could be made static
-</violation>
-<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
 UnusedPrivateField: Avoid unused private fields such as 'OLDER_YOUNGER'.
 </violation>
-<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
 UnusedPrivateField: Avoid unused private fields such as 'OLDER_YOUNGER'.
 </violation>
 </file>

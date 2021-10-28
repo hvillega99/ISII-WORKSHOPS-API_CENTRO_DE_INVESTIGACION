@@ -1,20 +1,20 @@
 [1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:33[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:32[0m
 [0;32m    rule: [0mCommentRequired
 [0;32m    msg:  [0mCommentRequired: Class comments are required
 [0;32m    code: [0mnull
 
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:33[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:32[0m
 [0;32m    rule: [0mCommentRequired
 [0;32m    msg:  [0mCommentRequired: Class comments are required
 [0;32m    code: [0mnull
 
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:33[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:32[0m
 [0;32m    rule: [0mDataClass
 [0;32m    msg:  [0mDataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
 [0;32m    code: [0mnull
 
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:33[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:32[0m
 [0;32m    rule: [0mDataClass
 [0;32m    msg:  [0mDataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)
 [0;32m    code: [0mnull
@@ -60,16 +60,6 @@
 [0;32m    code: [0mnull
 
 [0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
 [0;32m    rule: [0mUnusedPrivateField
 [0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'BASE_PREMIUM'.
 [0;32m    code: [0mnull
@@ -87,16 +77,6 @@
 [0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m10:10[0m
 [0;32m    rule: [0mCommentRequired
 [0;32m    msg:  [0mCommentRequired: Field comments are required
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m10:10[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m10:10[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
 [0;32m    code: [0mnull
 
 [0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m10:10[0m
@@ -120,51 +100,11 @@
 [0;32m    code: [0mnull
 
 [0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
-[0;32m    rule: [0mUnusedPrivateField
-[0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'FEMALE_MARRIED'.
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
-[0;32m    rule: [0mUnusedPrivateField
-[0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'FEMALE_MARRIED'.
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m12:12[0m
-[0;32m    rule: [0mCommentRequired
-[0;32m    msg:  [0mCommentRequired: Field comments are required
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m12:12[0m
-[0;32m    rule: [0mCommentRequired
-[0;32m    msg:  [0mCommentRequired: Field comments are required
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m12:12[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m12:12[0m
-[0;32m    rule: [0mFinalFieldCouldBeStatic
-[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
-[0;32m    code: [0mnull
-
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m12:12[0m
 [0;32m    rule: [0mUnusedPrivateField
 [0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'OLDER_YOUNGER'.
 [0;32m    code: [0mnull
 
-[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m12:12[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
 [0;32m    rule: [0mUnusedPrivateField
 [0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'OLDER_YOUNGER'.
 [0;32m    code: [0mnull
@@ -173,5 +113,5 @@
 
 Summary:
 
-ec.edu.espol.workshops.CarInsurance : 8
-[1;33m*[0m warnings: [1;37m34[0m
+ec.edu.espol.workshops.CarInsurance : 7
+[1;33m*[0m warnings: [1;37m22[0m
