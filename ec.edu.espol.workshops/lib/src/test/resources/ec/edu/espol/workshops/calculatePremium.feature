@@ -22,19 +22,19 @@ Feature: Calcultate the insurance
   @tag1
   Scenario: The customer age is in the correct range
     Given The customer age is 36, its gender is "M" and its marital status is "not married"
-    When Calculate the insurance
+    When Calculate the insurance2
     Then Return 2000
 
   @tag2
   Scenario Outline: The car insurance is 2000 or not?
-    Given The customer age is  <agecustomer>, its gender is <sexcustomer> and its marital status is <maritalstatus>
-    When Calculate the insurance
+    Given The customer age is <agecustomer>, its gender is <sexcustomer> and its marital status is <maritalstatus>
+    When Calculate the insurance2
     Then Return <number>
 
     Examples: 
-      | agecustomer | sexcustomer | maritalstatus  | number |
-      | 36          |     "M"     | "not married"  | 2000   |
-      | 18          |     "F"     | "married"      |  -1    |
+      | agecustomer | sexcustomer   | maritalstatus    | number |
+      | 36          |     "M"       | "not married"    | 2000   |
+      | 18          |     "F"       | "married"        |  -1    |
 
 	@tag3
   Scenario: The customer is underage
@@ -44,28 +44,28 @@ Feature: Calcultate the insurance
 
   @tag4
   Scenario Outline: The customer is underage or is not underage
-    Given the customer has <age> years old
-    When I check if the age is less than <requiredage>
-    Then I show <result>
+    Given A male person with <age> years old
+    When Calculate the insurance
+    Then Show <result>
 
     Examples: 
-      | age | requiredage |    result  |
-      | 20  |     21      |      -1    |
-      | 21  |     21      | "Insurance"|
-      
-  @tag5
-  Scenario: The customer is underage
-    Given A male person with 20 years old
-    When Calculate the insurance
-    Then Show -1
+      | age | result  |
+      | 20  |   -1    |
+      | 21  |   500   |
+    
+  @tag5    
+  Scenario: The customer is very old
+    Given the customer age is 81
+    When calculate the insurance3
+    Then return -1
 
   @tag6
-  Scenario Outline: The customer is underage or is not underage
-  	Given the customer has <age> years old
-    When I check if the age is less than <requiredage>
-    Then I show <result>
+  Scenario Outline: The customer is very old or is not
+    Given the customer age is <age>
+    When calculate the insurance3
+    Then return <result>
 
-    Examples: 
-    	| age | requiredage |    result  |
-      | 20  |     21      |      -1    |
-      | 21  |     21      | "Insurance"|
+    Examples:
+    | age |   result  |
+    | 81  |     -1    |
+    | 80  |    300    |
