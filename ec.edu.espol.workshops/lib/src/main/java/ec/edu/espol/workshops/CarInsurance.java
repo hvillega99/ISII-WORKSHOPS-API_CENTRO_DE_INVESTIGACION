@@ -53,6 +53,14 @@ public class CarInsurance {
             return -1;
         }
 
+        if (!this.sexcustomer.equals("M") && !this.sexcustomer.equals("F")){
+            return -1;
+        }
+
+        if (!this.maritalstatus.equals("married") && !this.maritalstatus.equals("not married")){
+            return -1;
+        }
+
         total = total + basepremium;
 
         if (this.sexcustomer.equals("M") && this.maritalstatus.equals("not married")  && this.agecustomer > 25) {
