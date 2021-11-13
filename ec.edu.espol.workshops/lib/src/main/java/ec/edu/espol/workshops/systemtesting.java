@@ -47,7 +47,7 @@ public class systemtesting {
     System.out.println("Test tc_003");
     System.out.println("Output : "+tc_003.totalCalc());
     
-    if(tc_003.totalCalc()==500) {
+    if(tc_003.totalCalc()==300) {
         System.out.println("Status : Pass");
     }
     else {
@@ -116,7 +116,7 @@ public class systemtesting {
     System.out.println("Test tc_007");
     System.out.println("Output : "+tc_007.totalCalc());
     
-    if(tc_007.totalCalc()==500) {
+    if(tc_007.totalCalc()==300) {
         System.out.println("Status : Pass");
     }
     else {
