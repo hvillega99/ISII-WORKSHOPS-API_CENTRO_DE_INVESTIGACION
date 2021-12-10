@@ -14,7 +14,7 @@ public class CarInsurance {
 	private String sexcustomer;
 	private String maritalstatus;
 	
-	private final static int basepremium = 500;
+	private final static int basepremium = 600;
     private final static int malesingle = 1500;
     private final static int femalemarried = 200;
     private final static int olderyounger = 100;
