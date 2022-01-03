@@ -13,7 +13,7 @@ public class PathCoverageTest {
     
     @Test
     public void executeTest() {
-        carInsurance.setAge_customer(44);
+        carInsurance.setAge_customer(24);
         carInsurance.setSex_customer("M");
         carInsurance.setMarital_status("not married");
         assertEquals(500, this.carInsurance.totalCalc());
