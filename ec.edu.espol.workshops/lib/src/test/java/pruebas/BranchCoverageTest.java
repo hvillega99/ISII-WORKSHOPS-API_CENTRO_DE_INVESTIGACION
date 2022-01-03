@@ -22,7 +22,7 @@ public class BranchCoverageTest {
         carInsurance.setAge_customer(50);
         carInsurance.setSex_customer("F");
         carInsurance.setMarital_status("married");
-        assertEquals(200, this.carInsurance.totalCalc());
+        assertEquals(300, this.carInsurance.totalCalc());
         
         carInsurance.setAge_customer(18);
         carInsurance.setSex_customer("M");
