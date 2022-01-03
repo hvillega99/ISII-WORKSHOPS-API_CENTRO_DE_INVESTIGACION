@@ -1,4 +1,5 @@
-package ec.edu.espol.workshops;
+package pruebas;
+import ec.edu.espol.workshops.*;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
