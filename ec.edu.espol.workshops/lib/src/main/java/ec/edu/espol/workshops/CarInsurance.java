@@ -52,20 +52,28 @@ public class CarInsurance {
         if (this.agecustomer > 80 || this.agecustomer < 21) {
             return -1;
         }
+        
+        if (!this.sexcustomer.equals("M") && !this.sexcustomer.equals("F")){
+            return -1;
+        }
+
+        if (!this.maritalstatus.equals("married") && !this.maritalstatus.equals("not married")){
+            return -1;
+        }
 
         total = total + basepremium;
 
         if (this.sexcustomer.equals("M") && this.maritalstatus.equals("not married")  && this.agecustomer < 25) {
             total = total + malesingle;
-        } else if (this.sexcustomer.equals("F") && this.maritalstatus.equals("married") ) {
+        } else if(this.maritalstatus.equals("not married") && this.sexcustomer.equals("F") && this.agecustomer > 60) {
+            total = total - 50;
+        } else if (this.maritalstatus.equals("married") && this.agecustomer > 30 && this.agecustomer < 60) {
+            total = total - 100;
+        } else if (this.sexcustomer.equals("F") || this.maritalstatus.equals("married") ) {
             total = total - femalemarried;
         } else if (this.agecustomer >= 45 && this.agecustomer < 65) {
             total = total - olderyounger;
-        } else if (this.maritalstatus.equals("married") && this.agecustomer > 30 && this.agecustomer < 60) {
-            total = total - 100;
-        } else if(this.maritalstatus.equals("not married") && this.sexcustomer.equals("F") && this.customerage > 60) {
-            total = total - 50;
-        }
+        } 
         return total;
     }
 
